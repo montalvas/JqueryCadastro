@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+fieldset {
+    width: 500px;
+    margin: 20px auto 40px;
+}
+
+legend {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+form {
+    padding: 10px;
+}
+
+#formCadastro, #formTabela, #formAlterar {
+    display: none;
+}
+
+.field {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.field > label {
+    font-size: 18px;
+}
+
+.field > input {
+    padding: 8px 0;
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.field > input:focus {
+    outline: 0;
+}
+
+#cadastrar {
+    width: 100px;
+    padding: 8px 0;
+    font-size: 18px;
+    margin: 20px auto 0;
+    cursor: pointer;
+}
+
+fieldset:last-of-type {
+    width: 1000px;
+}
+
+table, tr, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.tabela {
+    width: 800px;
+    margin: 10px auto;
+}
+
+tr {
+    text-align: center;
+}
+
+tr:first-of-type {
+    font-size: 18px;
+}
+
+td {
+    padding: 5px;
+}
